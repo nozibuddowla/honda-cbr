@@ -1,0 +1,13 @@
+.head-section{
+    background: #264653;
+}
+.btn-login{
+    color: #fff;
+    background-color: #E76F51;
+    border: none;
+    transition: .15s ease-in-out;
+}
+.btn-login:hover{
+    color: #fff;
+    background: red;
+}
