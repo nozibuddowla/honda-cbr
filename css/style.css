@@ -11,3 +11,17 @@
     color: #fff;
     background: red;
 }
+.bike-collection{
+    color: #E76F51;
+}
+.featured-bike img{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.featured-bike:hover img {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+}
