@@ -43,3 +43,17 @@
 .ratings{
     color: var(--main-color);
 }
+
+.honda-footer{
+    background: #0B0D17;
+}
+
+.footer-anchor a{
+    color: var(--txt-white);
+    text-decoration: none;
+    padding: 24px 0;
+}
+.app-img img{
+    width: 150px;
+    height: 50px;
+}
