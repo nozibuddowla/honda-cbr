@@ -1,18 +1,22 @@
+:root{ 
+    --main-color: #E76F51;
+    --txt-white: #fff;
+}
 .head-section{
     background: #264653;
 }
 .btn-login{
-    color: #fff;
-    background-color: #E76F51;
+    color: var(--txt-white);
+    background-color: var(--main-color);
     border: none;
     transition: .15s ease-in-out;
 }
 .btn-login:hover{
-    color: #fff;
+    color: var(--txt-white);
     background: red;
 }
 .bike-collection{
-    color: #E76F51;
+    color: var(--main-color);
 }
 .featured-bike img{
     -webkit-filter: grayscale(100%);
@@ -24,4 +28,18 @@
 .featured-bike:hover img {
     -webkit-filter: grayscale(0);
     filter: grayscale(0);
+}
+
+.btn-outline-latest{
+    color: var(--main-color);
+    border-color: var(--main-color);
+}
+
+.btn-outline-latest:hover{
+    color: var(--txt-white);
+    background: var(--main-color);
+    border: none;
+}
+.ratings{
+    color: var(--main-color);
 }
